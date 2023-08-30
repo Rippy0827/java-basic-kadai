@@ -1,27 +1,26 @@
-public calss kadai_004{
-  public static void main(String[] args) {
+package Score_Chapter04.java;
 
-  int A , B, C , D , E , F , G , H , I , J;
-  int Heikin;
+public class kadai_004 {
 
-    A = 10 , B= 20 , C = 30 , D = 40 , E = 50 
-    F = 60 , G = 70 , H = 80 , I = 90 , J = 100
-    Heikin = (A+B+C+D+E+F+G+H+I+J)/10
+		  public static void main(String[] args) {
 
-      System.out.Plintln("Aさんの点数は" + A + "点");
-      System.out.Plintln("Bさんの点数は" + B + "点");
-      System.out.Plintln("Cさんの点数は" + C + "点");
-      System.out.Plintln("Dさんの点数は" + D + "点");
-      System.out.Plintln("Eさんの点数は" + E + "点");
-      System.out.Plintln("Fさんの点数は" + F + "点");
-      System.out.Plintln("Gさんの点数は" + G + "点");
-      System.out.Plintln("Hさんの点数は" + H + "点");
-      System.out.Plintln("Iさんの点数は" + I + "点");
-      System.out.Plintln("Jさんの点数は" + J + "点");
-      System.out.Plintln("テストの平均点は" + Heikin + "点");
+
+		      System.out.println ( "Aさんの点数は" + 10 + "点" );
+		      System.out.println ( "Bさんの点数は" + 20 + "点" );
+		      System.out.println ( "Cさんの点数は" + 30 + "点 ");
+		      System.out.println ( "Dさんの点数は" + 40 + "点" );
+		      System.out.println ( "Eさんの点数は" + 50 + "点" );
+		      System.out.println ( "Fさんの点数は" + 60 + "点" );
+		      System.out.println ( "Gさんの点数は" + 70 + "点" );
+		      System.out.println ( "Hさんの点数は" + 80 + "点" );
+		      System.out.println ( "Iさんの点数は" + 90 + "点" );
+		      System.out.println ( " Jさんの点数は" + 100 + "点" );
+		      System.out.println ( " テストの平均点は" + (10+20+30+40+50+60+70+80+90+100)/10 + "点" );
 
 
 
-}
+		}
 
-}
+		}
+	
+	
