@@ -1,6 +1,6 @@
 package java-basic-kadai;
 
-public class Variable_3.java{
+public class variable_3.java{
   public static void main(String[] args){
 
   //変数testに123をセット
