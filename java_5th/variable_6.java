@@ -1,6 +1,6 @@
 package java-basic-kadai;
 
-public calss Variable_6;{
+public calss variable_6;{
     publicstatic viod main (String[] args){
 
       final double   PI = 3.14159
