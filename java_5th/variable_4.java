@@ -10,5 +10,11 @@ package java-basic-kadai;
     String lastNmae  =  "侍";
     String firstName =  "太郎";
     System.out.println(lastName + firstName);
+
+    //補足
+    int number3  = 32 ;
+    int number4  = number3 ? 4;
+    System.out.println(number4);
+
   }
 }
