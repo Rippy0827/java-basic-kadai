@@ -23,10 +23,6 @@ public class Price_Chapter08.java {
 		};
 	}
 }
-
-  }
 }
-}
-
   
   
