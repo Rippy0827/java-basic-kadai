@@ -11,16 +11,16 @@ public class IfSyntax_4 {
 
         // randNumが [1より大きい] かつ [3より小さい]
         if( (1 < randNum) && (randNum < 3) ) {
-            System.out.println("randNumは1より大きい、かつ3より小さい値です");
+            System.out.println("randNumは1より大きい、かつ3より小さい値です");        //該当数字は「2」
         } else {
-            System.out.println("and条件が成り立ちません");
+            System.out.println("and条件が成り立ちません(randNum以外)");
         }
 
         // randNumが [1に等しい] または [3に等しい]
         if( (randNum == 1) || (randNum == 3) ) {
             System.out.println("randNumは1、または3です");
         } else {
-            System.out.println("or条件が成り立ちません");
+            System.out.println("or条件が成り立ちません(1、3以外)");
         }
     }
 }
