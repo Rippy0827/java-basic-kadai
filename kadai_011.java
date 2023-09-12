@@ -44,7 +44,9 @@ public class Arry_2 {
 					/*			for (int outNum : SosuuArray)
 									//出力する
 									System.out.println(outNum);*/
-		}
-	}	
+			for (int a = 0 ; a < SosuuArray.length ; a++) {
+				System.out.println(SosuuArray[a]);
+			}
+		}	
+	}
 }
-
