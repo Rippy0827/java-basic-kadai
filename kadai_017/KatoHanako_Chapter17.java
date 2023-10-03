@@ -4,7 +4,7 @@ public class KatoHanako_Chapter17 extends Kato_Chapter17{
 
     @Override
     protected String familyName() {
-        return "名前は加藤花子です";
+        return "名前は加藤+"setGivenName"+です";
     }
 
     @Override
