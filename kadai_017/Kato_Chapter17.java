@@ -6,7 +6,7 @@ public abstract class Kato_Chapter17 {
 	public void execIntroduce() {
 		System.out.println(familyName());
 		System.out.println(address());
-		System.out.println(yourHobby());
+		System.out.println(eachIntroduce());
 	}
 
 	//抽象メソッド
@@ -16,6 +16,6 @@ public abstract class Kato_Chapter17 {
 	abstract protected String address();
 
 	//抽象メソッド（）
-	abstract protected String yourHobby();
+	abstract protected String eachIntroduce();
 
 }
