@@ -6,14 +6,17 @@ public class KatoExec_Chapter17 {
 		
 	 // Taroクラスの実行
 		Kato_Chapter17 Taro = new KatoTaro_Chapter17();
+		taro.setGivenName("太郎");
 		Taro.execIntroduce();
         
      //Ichiroクラスの実行
 		Kato_Chapter17 Ichiro = new KatoIchiro_Chapter17();
+		Ichiro.setGivenName("一郎");
 		Ichiro.execIntroduce();
     
    	 // Hanakoクラスの実行
    		Kato_Chapter17 Hanako = new KatoHanako_Chapter17();
+		Hanako.setGivenName("花子");
    		Hanako.execIntroduce();
 	}
 
