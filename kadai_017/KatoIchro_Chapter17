@@ -13,6 +13,6 @@ public class KatoIchro_Chapter17 extends Kato_Chapter17 {
     }
     
     @Override
-    protected String yourHobby() {
+    protected String eachIntroduce() {
         return "好きな食べ物はリンゴです";
     }
