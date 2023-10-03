@@ -9,7 +9,7 @@ public class KatoExec_Chapter17 {
 		Taro.execIntroduce();
         
      //Ichiroクラスの実行
-		Kato_Chapter17 Ichiro = new KatoIchro_Chapter17();
+		Kato_Chapter17 Ichiro = new KatoIchiro_Chapter17();
 		Ichiro.execIntroduce();
     
    	 // Hanakoクラスの実行
