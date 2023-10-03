@@ -13,7 +13,7 @@ public class KatoTaro_Chapter17 extends Kato_Chapter17 {
     }
     
     @Override
-    protected String yourHobby() {
+    protected String eachIntroduce() {
         return "Javaが得意です";
     }
 }
