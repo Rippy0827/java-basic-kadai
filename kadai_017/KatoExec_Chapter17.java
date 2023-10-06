@@ -1,25 +1,24 @@
 package kadai_017;
 
-public abstract class Kato_Chapter17 {
+public class KatoExec_Chapter17 {
 
-	public String familyName = "";
-	public String givenName = "";
-	public String address = "";
+	public static void main(String[] args) {
 
-	public void setGivenName(String familyName, String givenName, String address) {
-		this.familyName = familyName;
-		this.givenName = givenName;
-		this.address = address;
+		// Taroクラスの実行
+		Kato_Chapter17 Taro = new KatoTaro_Chapter17();
+		Taro.setGivenName("加藤","太郎","住所は東京都中野区〇×です");
+		Taro.execIntroduce();
+
+		//Ichiroクラスの実行
+		Kato_Chapter17 Ichiro = new KatoIchro_Chapter17();
+		Ichiro.setGivenName("加藤","一郎","住所は東京都中野区〇×です");
+		Ichiro.execIntroduce();
+
+
+		// Hanakoクラスの実行
+		Kato_Chapter17 Hanako = new KatoHanako_Chapter17();
+		Hanako.setGivenName("加藤","花子","住所は東京都中野区〇×です");
+		Hanako.execIntroduce();
 	}
-
-	public void execIntroduce() {
-		System.out.println("名前は" + this.familyName + this.givenName + "です");
-		System.out.println(address);
-		System.out.println(eachIntroduce());
-		System.out.println("");
-	}
-
-	//抽象メソッド（好きなこと）
-	protected abstract String eachIntroduce();
 
 }
